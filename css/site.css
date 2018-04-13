@@ -1,0 +1,33 @@
+body {
+	background-color: #f1f1f1
+}
+
+footer {
+	margin-top: 5%;
+}
+
+.content {
+	margin-top:2%;
+	background-color: #ffffff;
+}
+
+label {
+	font-weight: bold;
+}
+
+input:invalid {
+	border: 1px solid red;
+}
+
+input:valid {
+	border: 1px solid black;
+}
+
+.app-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+#myCanvas {
+	border: 1px solid black;
+}
