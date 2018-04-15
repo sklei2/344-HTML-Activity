@@ -48,11 +48,30 @@
 			</div>
 			<h3> Web Workers </h3>
 			<div>
-				
+				I'm sorry, i was too lazy to do this :(
 			</div>
 			<h3> Local Storage  </h3>
 			<div>
-				
+				<div id="locallyStoredData">
+
+				</div>
+				<form id="localStorageForm">
+					<div>
+						<label> Name: </label>
+						<input name="name" type="text" required>
+						<label> State: </label>
+						<input name="state" type="text" required>
+						<label> Email: </label>
+						<input name="email" type="email" requied>
+						<label> Do you like me? </label>
+						<label for="yesChoice"> Yes </label>
+						<input id="yesChoice" type="radio" value="yes" name="like">
+						<label for="noChoice"> No </label>
+						<input id="noChoice" type="radio" value="no" name="like">	
+					</div>
+					<button id="localStorageSubmit" type="submit"> Submit </button>
+					<button id="resetStorage" type="button"> Reset Storage </button>
+				</form>
 			</div>
 			<footer>
 				<hr>
