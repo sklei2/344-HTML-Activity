@@ -27,7 +27,9 @@ window.addEventListener('load', function() {
 			for (var i = 0; i < localStorageForm.length; i++) {
 				var data = localStorageForm[i];
 				if (data.type != "submit") {
-					localStorage.setItem(data.name, data.value);
+					if ((data.type == "radio" && data.checked) || data.type != "radio") {
+						localStorage.setItem(data.name, data.value);	
+					}					
 				}					
 			}	
 		}		
